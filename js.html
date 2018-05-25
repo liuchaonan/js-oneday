@@ -1,0 +1,211 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Document</title>
+	<script>
+		// var n1 = 1;
+		// var n2 = 2;
+		// var num;
+		// num = n1;
+		// n1 = n2;
+		// n2 = num;
+		// console.log(n1,n2);
+
+
+		// var n1 = 3,n2 = 4;
+		// n1 = n1 + n2;
+		// n2 = n1 - n2;
+		// n1 = n1 - n2;
+		// console.log(n1,n2);
+
+
+
+		// 比大小
+		/*
+		var a=3, b=4;
+		if (a>b) {
+			console.log("最大数是:"+a);
+		} else {
+			console.log("最大数是:"+b);
+		}
+		*/
+		// 3和4的倍数
+		/*
+		var a=12;
+		if (a%3===0 && a%4===0) {
+			console.log(a+"是3和4的倍数");
+		}else {
+			console.log(a+"不是3和4的倍数");
+		}
+		*/
+		//判断是否年满十八岁
+		// var age= 18;
+		// if (age >= 18) {
+		// 	console.log("已成年");
+		// } else {
+		// 	console.log("未成年");
+		// }
+		// //是否是闰年
+		// var a = 2000;
+		// if (a%4===0 && a%100!==0 || a%400===0) {
+		// 	console.log(a+"是闰年");
+		// } else {
+		// 	console.log(a+"不是闰年");
+		// }
+
+		// var a = 5;
+		// switch (a){
+		// 	case 1:
+		// 	case 2:
+		// 	case 3:
+		// 		console.log('春季');
+		// 		break;
+		// 	case 4:
+		// 	case 5:
+		// 	case 6:
+		// 		console.log('夏季');
+		// 		break;
+		// 	case 7:
+		// 	case 8:
+		// 	case 9:
+		// 		console.log('秋季');
+		// 		break;
+		// 	case 10:
+		// 	case 11:
+		// 	case 12:
+		// 		console.log('冬季');
+		// 		break;
+		// 	default:
+		// 		console.log('请输入正确的月份!!!');
+		// 		break;
+		// }
+
+		// // 打印1-100内所有奇数
+		// var i = 1;
+		// while (i <= 100) {
+		// 	if(i % 2 !== 0) {
+		// 		console.log(i);
+		// 	}i++;
+		// }
+
+		// var i = 1;
+		// var sum = 0;
+		// while (i <= 100) {
+		// 	if (i % 2 !==0) {
+		// 		sum = sum + i;
+		// 	}i++;
+		// }console.log(sum);
+
+		//正方形
+		// var str = '';
+		// for ( j = 0; j < 10; j++) {
+		// 	for ( i = 0; i < 10; i++) {
+		// 		str += '☆ ';
+		// 	}str+='\n';
+		// }
+		// console.log(str);
+
+
+		// 右上三角
+		// var str='',a = '  ';
+		// for (j = 0; j < 10; j++) {
+			
+		// 	for (k = 0; k <= j; k++){
+		// 			str+= a;
+		// 		}
+		// 	for ( i = j; i < 10; i ++) {
+		// 		str+='* ';
+		// 	}
+		// 	str+= '\n';
+		// }
+		// console.log(str);
+
+		// 右下三角
+		// var str='',a = '  ';
+		// for (j = 0; j < 10; j++) {
+		// 	for (k = j; k < 10; k++){
+		// 			str+= a;
+		// 		}
+		// 	for ( i = 0; i <=j; i ++) {
+		// 		str+='* ';
+		// 	}
+		// 	str+= '\n';
+		// }
+		// console.log(str);
+
+		// 99乘法表 倒三角
+		// var str = '';
+		// for ( j = 1; j <= 9; j++ ) {
+		// 	for ( i = j; i <= 9; i++) {
+		// 		str += (j +'*'+ i + '=' + i*j );
+		// 		str += '\t';
+				
+		// 	}
+		// 	str+='\n';
+		// }console.log(str);
+
+		// 99乘法表 正三角
+		// var str = '';
+		// for (j = 1; j <= 9; j++) {
+		// 	for ( i = 1; i <= j; i++) {
+		// 		str += (j +'*'+ i +'='+ j*i + '\t');
+		// 		// str += '\t';
+		// 	}
+		// 	str += '\n';
+		// }
+		// console.log(str);
+		// var n1=6, n2=8;
+		// n1 = n1+n2;
+		// n2 = n1-n2;
+		// n1 = n1-n2;
+		// console.log(n1,n2);
+
+
+		// var str='';
+		// console.log(str='I\'m love 鹤鹤 因为她比我"丑!!!!!"');
+		// 1.页面打开弹出输入框
+		// var age = prompt('请输入您的年龄!');
+		// 2.用户输入年龄 我们保存数据
+		//prompt('请输入您的年龄!') 默认有返回值 确定为输入框里的值,取消返回为null
+		// 3.弹出警示框 提示 鹤鹤 XX岁了
+		// alert('鹤鹤'+age+'岁了!! \n该断奶了o(￣ヘ￣o＃)');
+
+		/* var uName = prompt('平输入你的名字哦O(∩_∩)O哈哈~');
+		alert('哈哈'+uName+'是个小傻子O(∩_∩)O哈哈~'); */
+		
+		//1.弹出输入框 输入出生年份
+		// prompt('请输入你的出生日期:');
+		//2.得到值 存储起来
+	/* 	var year = prompt('请输入你的出生日期:');
+		//3.今年减去得到值
+		var age = 2018 - year;
+		//4.弹出计算的年龄
+		alert('您的年龄是'+age+'岁'); */
+
+	/* 先弹出一个框提示输入一个数
+	先弹出第二个框提示输入第二个数
+	计算 要进行数据转换
+	弹出结果 */
+	/* var num1 = prompt('请输入第一个数:');
+	var num2 = prompt('请输入第二个数:');
+	var sum = parseFloat(num1) + parseFloat(num2);
+	alert('结果是:'+sum); */
+
+
+	/* alert('请分别输入要计算的两个数值');
+	var num1 = prompt('请输入第一个数:');
+	var num2 = prompt('请输入第二个数:');
+	var sum = parseFloat(num1) + parseFloat(num2);
+	alert('计算的结果是:'+sum); */
+
+
+
+
+
+	</script>
+</head>
+<body>
+	
+</body>
+</html>
